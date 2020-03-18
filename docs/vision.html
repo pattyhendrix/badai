@@ -49,24 +49,25 @@ description: "API details."
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input">
 
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">badai.core</span> <span class="kn">import</span> <span class="n">bytes_encode</span>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
 
-<span class="k">def</span> <span class="nf">im2bytes</span><span class="p">(</span><span class="n">im</span><span class="p">,</span><span class="n">rt</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;png&#39;</span><span class="p">):</span>
-    <span class="s2">&quot;Convert image to bytes/encoded bytes&quot;</span>
-    <span class="n">bites</span><span class="o">=</span><span class="n">io</span><span class="o">.</span><span class="n">BytesIO</span><span class="p">()</span>
-    <span class="n">im</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">bites</span><span class="p">,</span><span class="nb">format</span><span class="o">=</span><span class="nb">format</span><span class="p">)</span>
-    <span class="n">bites</span><span class="o">.</span><span class="n">seek</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-    <span class="n">enc</span><span class="o">=</span><span class="p">(</span><span class="n">bytes_encode</span><span class="p">(</span><span class="n">bites</span><span class="o">.</span><span class="n">read</span><span class="p">()))</span>
-    <span class="k">if</span> <span class="n">rt</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span><span class="k">return</span> <span class="n">enc</span>
-    <span class="k">if</span> <span class="n">rt</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span><span class="k">return</span> <span class="n">bites</span>
-    <span class="k">if</span> <span class="n">rt</span><span class="o">==</span><span class="mi">2</span><span class="p">:</span><span class="k">return</span> <span class="p">(</span><span class="n">enc</span><span class="p">,</span><span class="n">bites</span><span class="p">)</span>
-</pre></div>
+<div class="output_wrapper">
+<div class="output">
 
-    </div>
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="im2bytes" class="doc_header"><code>im2bytes</code><a href="__main__.py#L5" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>im2bytes</code>(<strong><code>im</code></strong>, <strong><code>rt</code></strong>=<em><code>0</code></em>, <strong><code>format</code></strong>=<em><code>'png'</code></em>)</p>
+</blockquote>
+<p>Convert image to bytes/encoded bytes</p>
+
+</div>
+
+</div>
+
 </div>
 </div>
 
