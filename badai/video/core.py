@@ -3,7 +3,10 @@
 __all__ = ['select_frames', 'get_frames', 'get_vid']
 
 # Cell
+import av
+from ..core import to_bytesio
 
+# Cell
 def select_frames(l):
   "Get first, 25%, 50%, 75%, and last frame from a list"
   f1 = l[0]
@@ -17,9 +20,6 @@ def select_frames(l):
   return [f1,f2,f3,f4,f5]
 
 # Cell
-
-import av
-
 def get_frames(vid):
   "Get frames from video"
   container=av.open(vid)
@@ -27,9 +27,6 @@ def get_frames(vid):
   return select_frames(fs)
 
 # Cell
-
-from ..core import to_bytesio
-
 def get_vid(encoded):
     "Get video from encoded bytes"
     return to_bytesio(bytes_decode(encoded))

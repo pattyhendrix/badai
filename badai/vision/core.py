@@ -3,17 +3,15 @@
 __all__ = ['arr2im', 'im2bytes', 'check_im']
 
 # Cell
-
 import PIL
+from ..core import bytes_encode
 
+# Cell
 def arr2im(arr):
     "Convert array to PIL image"
     return PIL.Image.fromarray(arr,mode='RGB')
 
 # Cell
-
-from ..core import bytes_encode
-
 def im2bytes(im,rt=0,format='png'):
     "Convert image to bytes/encoded bytes"
     bites=io.BytesIO()
@@ -25,7 +23,6 @@ def im2bytes(im,rt=0,format='png'):
     if rt==2:return (enc,bites)
 
 # Cell
-
 def check_im(im,sz=256):
     "Check size of image is same as sz"
     return im if im.size==(sz,sz) else im.resize((sz,sz))
