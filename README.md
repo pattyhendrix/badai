@@ -7,5 +7,3 @@ Things created along the way using [nbdev_template](https://github.com/fastai/nb
 ## Install
 
 `pip install badai`
-
-## [Docs](https://pattyhendrix.github.io/badai/)
