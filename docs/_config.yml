@@ -61,7 +61,7 @@ sidebars:
 - home_sidebar
 permalink: pretty
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-dinky
 baseurl: /badai/
 =======
 theme: jekyll-theme-midnight
