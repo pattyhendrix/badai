@@ -1,4 +1,3 @@
-# nbdev template
+# badai
 
-Use this template to more easily create your nbdev project.
-
+created using [nbdev_template](https://github.com/fastai/nbdev_template)
