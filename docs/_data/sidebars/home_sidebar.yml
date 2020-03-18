@@ -13,6 +13,9 @@ entries:
       title: core functions
       url: /core
     - output: web,pdf
+      title: core functions for video
+      url: /video
+    - output: web,pdf
       title: core functions for vision
       url: /vision
     output: web

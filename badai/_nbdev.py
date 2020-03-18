@@ -5,10 +5,19 @@ __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 index = {"print_obj": "00_core.ipynb",
          "bytes_encode": "00_core.ipynb",
          "bytes_decode": "00_core.ipynb",
+         "timer_start": "00_core.ipynb",
+         "timer_end": "00_core.ipynb",
+         "to_bytesio": "00_core.ipynb",
+         "cprint": "00_core.ipynb",
+         "select_frames": "01_video.ipynb",
+         "get_frames": "01_video.ipynb",
+         "get_vid": "01_video.ipynb",
          "arr2im": "01_vision.ipynb",
-         "im2bytes": "01_vision.ipynb"}
+         "im2bytes": "01_vision.ipynb",
+         "check_im": "01_vision.ipynb"}
 
 modules = ["core.py",
+           "video/core.py",
            "vision/core.py"]
 
 doc_url = "https://pattyhendrix.github.io/badai/"
