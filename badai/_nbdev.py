@@ -2,9 +2,13 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"print_obj": "00_core.ipynb"}
+index = {"print_obj": "00_core.ipynb",
+         "bytes_encode": "00_core.ipynb",
+         "bytes_decode": "00_core.ipynb",
+         "arr2im": "01_vision.ipynb"}
 
-modules = ["core.py"]
+modules = ["core.py",
+           "vision/core.py"]
 
 doc_url = "https://pattyhendrix.github.io/badai/"
 

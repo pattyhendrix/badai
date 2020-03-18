@@ -12,6 +12,9 @@ entries:
     - output: web,pdf
       title: core functions
       url: /core
+    - output: web,pdf
+      title: core functions for vision
+      url: /vision
     output: web
     title: badai
   output: web
