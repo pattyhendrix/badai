@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 repository: pattyhendrix/badai
 output: web
 topnav_title: badai
@@ -62,3 +63,6 @@ permalink: pretty
 
 theme: jekyll-theme-cayman
 baseurl: /badai/
+=======
+theme: jekyll-theme-midnight
+>>>>>>> 0bdbc9dde365d4f484effa676100ea8f797b6b50
