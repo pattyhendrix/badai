@@ -28,7 +28,7 @@ sylvain interview: https://forums.fast.ai/t/ama-interview-with-sylvain-gugger-ch
 
 labelling:
   https://appen.com/
-  scale.ai
+  https://scale.ai/
   https://labelbox.com/
   https://www.v7labs.com/
   https://prodi.gy/
