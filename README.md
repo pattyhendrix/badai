@@ -1,8 +1,8 @@
 # badai
-> some functions and deep learning
+> No idea what I'm doing. Might be useful
 
 
-Things created along the way using [nbdev_template](https://github.com/fastai/nbdev_template)
+Created using [nbdev_template](https://github.com/fastai/nbdev_template)
 
 ## Install
 
