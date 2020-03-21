@@ -4,7 +4,6 @@
     "core functions": "/core",
     "core functions for video": "/video",
     "core functions for vision": "/vision",
-    "dl server": "/notes.dlserver",
-    "various notes": "/notes"
+    "dl server": "/notes.dlserver"
   }
 }
