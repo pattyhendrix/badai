@@ -36,7 +36,7 @@ entries:
         subfolderitems:
         - output: web,pdf
           title: lesson1
-          url: 00placeholder
+          url: vision
         title: course v4
       - output: web
         subfolderitems:
