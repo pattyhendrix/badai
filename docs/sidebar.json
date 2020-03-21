@@ -15,14 +15,6 @@
       }
     }
   },
-  "fastai": {
-    "Overview": "fastai",
-    "": {
-      "course v4": {
-        "lesson1": "placeholder"
-      }
-    }
-  },
   "Notes": {
     "Overview": "notes",
     "dl server": "notes.dlserver",
