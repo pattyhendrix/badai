@@ -1,10 +1,33 @@
 {
   "badai": {
     "Overview": "/",
-    "core": "/00_core.ipynb"
+    "core": "00_core.ipynb"
+  },
+  "Tutorials": {
+    "Overview": "/tutorial",
+    "": {
+      "Beginners": {
+        "Vision tutorial": "/tutorial.vision",
+        "Text tutorial": "/tutorial.text",
+        "Tabular tutorial": "/tutorial.tabular"
+      }
+    },
+    "empty1": {
+      "Intermediate": {
+        "Data block examples": "/tutorial.datablock",
+        "Imagenette tutorial": "/tutorial.imagenette",
+        "Pets tutorial": "/tutorial.pets",
+        "Wikitext tutorial": "/tutorial.wikitext"
+      }
+    },
+    "empty2": {
+      "Advanced": {
+        "Siamese tutorial": "/tutorial.siamese"
+      }
+    }
   },
   "vision": {
-    "core": "/nbs/01_vision.ipynb"
+    "core": "01_vision.ipynb"
   },
   "video": {
     "core": "01_video.ipynb"
