@@ -1,7 +1,7 @@
 {
   "badai": {
     "Overview": "/",
-    "core": "00_core"
+    "core": "core"
   },
   "Tutorials": {
     "Overview": "/tutorial",
@@ -27,10 +27,10 @@
     }
   },
   "vision": {
-    "core": "01_vision"
+    "core": "vision"
   },
   "video": {
-    "core": "01_video"
+    "core": "video"
   },
   "notes": {
     "Overview": "notes",

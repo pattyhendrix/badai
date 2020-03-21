@@ -11,7 +11,7 @@ entries:
       url: /
     - output: web,pdf
       title: core
-      url: 00_core
+      url: core
     output: web
     title: badai
   - folderitems:
@@ -57,13 +57,13 @@ entries:
   - folderitems:
     - output: web,pdf
       title: core
-      url: 01_vision
+      url: vision
     output: web
     title: vision
   - folderitems:
     - output: web,pdf
       title: core
-      url: 01_video
+      url: video
     output: web
     title: video
   - folderitems:
