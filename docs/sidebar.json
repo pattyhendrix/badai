@@ -17,38 +17,5 @@
         "dl server": "/notes.dlserver"
       }
     }
-  },
-  "Tutorials": {
-    "Overview": "/tutorial",
-    "": {
-      "Beginners": {
-        "Vision tutorial": "/tutorial.vision",
-        "Text tutorial": "/tutorial.text",
-        "Tabular tutorial": "/tutorial.tabular"
-      }
-    },
-    "empty1": {
-      "Intermediate": {
-        "Data block examples": "/tutorial.datablock",
-        "Imagenette tutorial": "/tutorial.imagenette",
-        "Pets tutorial": "/tutorial.pets",
-        "Wikitext tutorial": "/tutorial.wikitext"
-      }
-    },
-    "empty2": {
-      "Advanced": {
-        "Siamese tutorial": "/tutorial.siamese"
-      }
-    }
-  },
-  "vision": {
-    "core": "vision"
-  },
-  "video": {
-    "core": "video"
-  },
-  "notes": {
-    "Overview": "notes",
-    "dl server": "notes.dlserver"
   }
 }
