@@ -9,15 +9,11 @@ index = {"view": "utils.ipynb",
          "timer_end": "utils.ipynb",
          "to_bytesio": "utils.ipynb",
          "cprint": "utils.ipynb",
-         "select_frames": "video.ipynb",
-         "get_frames": "video.ipynb",
-         "get_vid": "video.ipynb",
          "arr2im": "vision.ipynb",
          "im2bytes": "vision.ipynb",
          "check_im": "vision.ipynb"}
 
 modules = ["utils.py",
-           "video/core.py",
            "vision/core.py"]
 
 doc_url = "https://pattyhendrix.github.io/badai/"
