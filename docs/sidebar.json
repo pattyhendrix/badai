@@ -1,13 +1,13 @@
 {
   "Getting Started": {
-    "Overview": "/"
+    "Overview": "/",
+    "Core": "core"
   },
-  "Core": "core",
   "Vision": {
-    "Core": "/vision"
+    "Core": "vision"
   },
   "Video": {
-    "Core": "/video"
+    "Core": "video"
   },
   "Notes":{
     "dl server": "notes.dlserver"

@@ -9,21 +9,21 @@ entries:
     - output: web,pdf
       title: Overview
       url: /
+    - output: web,pdf
+      title: Core
+      url: core
     output: web
     title: Getting Started
-  - output: web,pdf
-    title: Core
-    url: core
   - folderitems:
     - output: web,pdf
       title: Core
-      url: /vision
+      url: vision
     output: web
     title: Vision
   - folderitems:
     - output: web,pdf
       title: Core
-      url: /video
+      url: video
     output: web
     title: Video
   - folderitems:
