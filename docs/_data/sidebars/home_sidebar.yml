@@ -18,6 +18,9 @@ entries:
     - output: web,pdf
       title: core functions for vision
       url: /vision
+    - output: web,pdf
+      title: dl server
+      url: /notes_01_server
     output: web
     title: badai
   output: web

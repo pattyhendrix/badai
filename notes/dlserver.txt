@@ -25,4 +25,4 @@ software:
 	https://medium.com/@calerogers/gpu-virtualization-with-kvm-qemu-63ca98a6a172
 	https://medium.com/@fabiograetz/accessing-your-deep-learning-station-remotely-and-setting-up-wake-on-lan-1e708c50fdd8
 	https://medium.com/@mromerocalvo/set-up-a-remote-machine-for-deep-learning-with-jupyter-notebook-1946729f9fc
-	https://towardsdatascience.com/jupyter-and-tensorboard-in-tmux-5e5d202a4fb6	
+	https://towardsdatascience.com/jupyter-and-tensorboard-in-tmux-5e5d202a4fb6

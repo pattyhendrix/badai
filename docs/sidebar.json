@@ -3,6 +3,7 @@
     "Overview": "/",
     "core functions": "/core",
     "core functions for video": "/video",
-    "core functions for vision": "/vision"
+    "core functions for vision": "/vision",
+    "dl server": "/notes_01_server"
   }
 }
