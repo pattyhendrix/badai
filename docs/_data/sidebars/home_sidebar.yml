@@ -32,14 +32,14 @@ entries:
     title: Lib
   - folderitems:
     - output: web,pdf
-      title: utils
-      url: utils
+      title: Overview
+      url: fastai
       subfolders:
       - output: web
         subfolderitems:
         - output: web,pdf
           title: lesson1
-          url: vision
+          url: placeholder
         title: course v4
       - output: web
         subfolderitems:
