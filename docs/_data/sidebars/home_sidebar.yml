@@ -41,12 +41,6 @@ entries:
           title: lesson1
           url: placeholder
         title: course v4
-      - output: web
-        subfolderitems:
-        - output: web,pdf
-          title: core
-          url: video
-        title: video
     output: web
     title: fastai
   - folderitems:
