@@ -32,6 +32,25 @@ entries:
     title: Lib
   - folderitems:
     - output: web,pdf
+      title: utils
+      url: utils
+      subfolders:
+      - output: web
+        subfolderitems:
+        - output: web,pdf
+          title: core
+          url: vision
+        title: vision
+      - output: web
+        subfolderitems:
+        - output: web,pdf
+          title: core
+          url: video
+        title: video
+    output: web
+    title: fastai
+  - folderitems:
+    - output: web,pdf
       title: dl server
       url: notes.dlserver
     output: web
