@@ -1,21 +1,15 @@
 {
-  "badai": {
-    "Overview": "/",
-    "core": "core",
-    "": {
-      "Vision": {
-        "core": "/vision"
-      }
-    },
-    "empty1": {
-      "Video": {
-        "core": "/video"
-      }
-    },
-    "empty2": {
-      "notes": {
-        "dl server": "/notes.dlserver"
-      }
-    }
+  "Getting Started": {
+    "Overview": "/"
+  },
+  "Core": "core",
+  "Vision": {
+    "Core": "/vision"
+  },
+  "Video": {
+    "Core": "/video"
+  },
+  "Notes":{
+    "dl server": "notes.dlserver"
   }
 }

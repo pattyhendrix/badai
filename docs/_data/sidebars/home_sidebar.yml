@@ -9,29 +9,28 @@ entries:
     - output: web,pdf
       title: Overview
       url: /
-    - output: web,pdf
-      title: core
-      url: core
-      subfolders:
-      - output: web
-        subfolderitems:
-        - output: web,pdf
-          title: core
-          url: /vision
-        title: Vision
-      - output: web
-        subfolderitems:
-        - output: web,pdf
-          title: core
-          url: /video
-        title: Video
-      - output: web
-        subfolderitems:
-        - output: web,pdf
-          title: dl server
-          url: /notes.dlserver
-        title: notes
     output: web
-    title: badai
+    title: Getting Started
+  - output: web,pdf
+    title: Core
+    url: core
+  - folderitems:
+    - output: web,pdf
+      title: Core
+      url: /vision
+    output: web
+    title: Vision
+  - folderitems:
+    - output: web,pdf
+      title: Core
+      url: /video
+    output: web
+    title: Video
+  - folderitems:
+    - output: web,pdf
+      title: dl server
+      url: notes.dlserver
+    output: web
+    title: Notes
   output: web
   title: Sidebar
