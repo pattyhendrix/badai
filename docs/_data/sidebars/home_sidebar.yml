@@ -45,8 +45,18 @@ entries:
     title: fastai
   - folderitems:
     - output: web,pdf
+      title: Overview
+      url: notes
+    - output: web,pdf
       title: dl server
       url: notes.dlserver
+      subfolders:
+      - output: web
+        subfolderitems:
+        - output: web,pdf
+          title: lesson1
+          url: placeholder
+        title: fastai course v4
     output: web
     title: Notes
   output: web
