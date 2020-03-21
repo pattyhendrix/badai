@@ -13,21 +13,21 @@ entries:
     title: Getting Started
   - folderitems:
     - output: web,pdf
-      title: Utils
+      title: utils
       url: utils
       subfolders:
       - output: web
         subfolderitems:
         - output: web,pdf
-          title: Core
+          title: core
           url: vision
-        title: Vision
+        title: vision
       - output: web
         subfolderitems:
         - output: web,pdf
-          title: Core
+          title: core
           url: video
-        title: Video
+        title: video
     output: web
     title: Lib
   - folderitems:

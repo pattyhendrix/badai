@@ -3,15 +3,15 @@
     "Overview": "/"
   },
   "Lib": {
-    "Utils": "utils",
+    "utils": "utils",
     "": {
-      "Vision": {
-        "Core": "vision"
+      "vision": {
+        "core": "vision"
       }
     },
     "empty1": {
-      "Video": {
-        "Core": "video"
+      "video": {
+        "core": "video"
       }
     }
   },
