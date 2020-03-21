@@ -3,23 +3,18 @@
     "Overview": "/",
     "core": "core",
     "": {
-      "Beginners": {
-        "Vision tutorial": "/tutorial.vision",
-        "Text tutorial": "/tutorial.text",
-        "Tabular tutorial": "/tutorial.tabular"
+      "Vision": {
+        "core": "/vision"
       }
     },
     "empty1": {
-      "Intermediate": {
-        "Data block examples": "/tutorial.datablock",
-        "Imagenette tutorial": "/tutorial.imagenette",
-        "Pets tutorial": "/tutorial.pets",
-        "Wikitext tutorial": "/tutorial.wikitext"
+      "Video": {
+        "core": "/video"
       }
     },
     "empty2": {
-      "Advanced": {
-        "Siamese tutorial": "/tutorial.siamese"
+      "notes": {
+        "dl server": "/notes.dlserver"
       }
     }
   },

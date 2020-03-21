@@ -16,36 +16,21 @@ entries:
       - output: web
         subfolderitems:
         - output: web,pdf
-          title: Vision tutorial
-          url: /tutorial.vision
-        - output: web,pdf
-          title: Text tutorial
-          url: /tutorial.text
-        - output: web,pdf
-          title: Tabular tutorial
-          url: /tutorial.tabular
-        title: Beginners
+          title: core
+          url: /vision
+        title: Vision
       - output: web
         subfolderitems:
         - output: web,pdf
-          title: Data block examples
-          url: /tutorial.datablock
-        - output: web,pdf
-          title: Imagenette tutorial
-          url: /tutorial.imagenette
-        - output: web,pdf
-          title: Pets tutorial
-          url: /tutorial.pets
-        - output: web,pdf
-          title: Wikitext tutorial
-          url: /tutorial.wikitext
-        title: Intermediate
+          title: core
+          url: /video
+        title: Video
       - output: web
         subfolderitems:
         - output: web,pdf
-          title: Siamese tutorial
-          url: /tutorial.siamese
-        title: Advanced
+          title: dl server
+          url: /notes.dlserver
+        title: notes
     output: web
     title: badai
   - folderitems:
