@@ -4,7 +4,7 @@ __all__ = ['select_frames', 'get_frames', 'get_vid']
 
 # Cell
 import av
-from ..core import to_bytesio
+from ..utils import to_bytesio
 
 # Cell
 def select_frames(l):

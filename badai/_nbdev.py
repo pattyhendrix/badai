@@ -2,7 +2,7 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"print_obj": "utils.ipynb",
+index = {"view": "utils.ipynb",
          "bytes_encode": "utils.ipynb",
          "bytes_decode": "utils.ipynb",
          "timer_start": "utils.ipynb",
@@ -16,7 +16,7 @@ index = {"print_obj": "utils.ipynb",
          "im2bytes": "vision.ipynb",
          "check_im": "vision.ipynb"}
 
-modules = ["core.py",
+modules = ["utils.py",
            "video/core.py",
            "vision/core.py"]
 

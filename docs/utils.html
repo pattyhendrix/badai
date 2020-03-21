@@ -1,12 +1,12 @@
 ---
 
-title: core functions
+title: utils
 
 keywords: fastai
 sidebar: home_sidebar
 
-summary: "API details."
-description: "API details."
+
+
 ---
 <!--
 
@@ -52,7 +52,7 @@ description: "API details."
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="print_obj" class="doc_header"><code>print_obj</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/core.py#L12" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>print_obj</code>(<strong><code>obj</code></strong>, <strong><code>depth</code></strong>=<em><code>1</code></em>, <strong><code>indent</code></strong>=<em><code>'  '</code></em>, <strong><code>width</code></strong>=<em><code>100</code></em>, <strong><code>seq_length</code></strong>=<em><code>1000</code></em>, <strong><code>show_protected</code></strong>=<em><code>False</code></em>, <strong><code>show_private</code></strong>=<em><code>True</code></em>, <strong><code>show_static</code></strong>=<em><code>True</code></em>, <strong><code>show_properties</code></strong>=<em><code>True</code></em>, <strong><code>show_address</code></strong>=<em><code>False</code></em>, <strong><code>str_length</code></strong>=<em><code>1000</code></em>)</p>
+<h4 id="view" class="doc_header"><code>view</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/utils.py#L12" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>view</code>(<strong><code>obj</code></strong>, <strong><code>depth</code></strong>=<em><code>1</code></em>, <strong><code>indent</code></strong>=<em><code>'  '</code></em>, <strong><code>width</code></strong>=<em><code>100</code></em>, <strong><code>seq_length</code></strong>=<em><code>1000</code></em>, <strong><code>show_protected</code></strong>=<em><code>False</code></em>, <strong><code>show_private</code></strong>=<em><code>True</code></em>, <strong><code>show_static</code></strong>=<em><code>True</code></em>, <strong><code>show_properties</code></strong>=<em><code>True</code></em>, <strong><code>show_address</code></strong>=<em><code>False</code></em>, <strong><code>str_length</code></strong>=<em><code>1000</code></em>)</p>
 </blockquote>
 <p>Print everything that belongs to an object</p>
 
@@ -83,7 +83,7 @@ description: "API details."
 
 <span class="n">learn</span><span class="o">=</span><span class="n">cnn_learner</span><span class="p">(</span><span class="n">dls</span><span class="p">,</span> <span class="n">resnet34</span><span class="p">,</span> <span class="n">metrics</span><span class="o">=</span><span class="n">error_rate</span><span class="p">)</span>
 
-<span class="n">print_obj</span><span class="p">(</span><span class="n">learn</span><span class="p">)</span>
+<span class="n">view</span><span class="p">(</span><span class="n">learn</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -149,7 +149,7 @@ description: "API details."
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="bytes_encode" class="doc_header"><code>bytes_encode</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/core.py#L20" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bytes_encode</code>(<strong><code>bites</code></strong>)</p>
+<h4 id="bytes_encode" class="doc_header"><code>bytes_encode</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/utils.py#L20" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bytes_encode</code>(<strong><code>bites</code></strong>)</p>
 </blockquote>
 <p>Encode bytes to base64 string</p>
 
@@ -174,7 +174,7 @@ description: "API details."
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="bytes_decode" class="doc_header"><code>bytes_decode</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/core.py#L24" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bytes_decode</code>(<strong><code>encoded</code></strong>)</p>
+<h4 id="bytes_decode" class="doc_header"><code>bytes_decode</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/utils.py#L24" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bytes_decode</code>(<strong><code>encoded</code></strong>)</p>
 </blockquote>
 <p>Decode base64 string to bytes</p>
 
@@ -206,7 +206,7 @@ description: "API details."
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="timer_start" class="doc_header"><code>timer_start</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/core.py#L29" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>timer_start</code>()</p>
+<h4 id="timer_start" class="doc_header"><code>timer_start</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/utils.py#L29" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>timer_start</code>()</p>
 </blockquote>
 <p>Start for timer. Place above start of code you want to time</p>
 
@@ -231,7 +231,7 @@ description: "API details."
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="timer_end" class="doc_header"><code>timer_end</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/core.py#L32" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>timer_end</code>(<strong><code>start</code></strong>, <strong><code>label</code></strong>=<em><code>'timer'</code></em>)</p>
+<h4 id="timer_end" class="doc_header"><code>timer_end</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/utils.py#L32" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>timer_end</code>(<strong><code>start</code></strong>, <strong><code>label</code></strong>=<em><code>'timer'</code></em>)</p>
 </blockquote>
 <p>End for timer. Place below end of code you want to time. Prints execution time of surrounded code</p>
 
@@ -263,7 +263,7 @@ description: "API details."
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="to_bytesio" class="doc_header"><code>to_bytesio</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/core.py#L37" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>to_bytesio</code>(<strong><code>bites</code></strong>)</p>
+<h4 id="to_bytesio" class="doc_header"><code>to_bytesio</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/utils.py#L37" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>to_bytesio</code>(<strong><code>bites</code></strong>)</p>
 </blockquote>
 <p>Convert bytes to io.BytesIO</p>
 
@@ -295,7 +295,7 @@ description: "API details."
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="cprint" class="doc_header"><code>cprint</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/core.py#L42" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>cprint</code>(<strong><code>s1</code></strong>, <strong><code>s2</code></strong>=<em><code>None</code></em>, <strong><code>c1</code></strong>=<em><code>'\x1b[36m'</code></em>, <strong><code>c2</code></strong>=<em><code>'\x1b[36m'</code></em>, <strong><code>c0</code></strong>=<em><code>'\x1b[36m'</code></em>)</p>
+<h4 id="cprint" class="doc_header"><code>cprint</code><a href="https://github.com/pattyhendrix/badai/tree/master/badai/utils.py#L42" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>cprint</code>(<strong><code>s1</code></strong>, <strong><code>s2</code></strong>=<em><code>None</code></em>, <strong><code>c1</code></strong>=<em><code>'\x1b[36m'</code></em>, <strong><code>c2</code></strong>=<em><code>'\x1b[36m'</code></em>, <strong><code>c0</code></strong>=<em><code>'\x1b[36m'</code></em>)</p>
 </blockquote>
 <p>Print in color of c1</p>
 
