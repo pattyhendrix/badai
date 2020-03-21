@@ -1,7 +1,7 @@
 {
   "badai": {
     "Overview": "/",
-    "core": "00_core.ipynb"
+    "core": "00_core"
   },
   "Tutorials": {
     "Overview": "/tutorial",
@@ -27,13 +27,13 @@
     }
   },
   "vision": {
-    "core": "01_vision.ipynb"
+    "core": "01_vision"
   },
   "video": {
-    "core": "01_video.ipynb"
+    "core": "01_video"
   },
   "notes": {
-    "Overview": "notes.ipynb",
-    "dl server": "notes.dlserver.ipynb"
+    "Overview": "notes",
+    "dl server": "notes.dlserver"
   }
 }

@@ -11,7 +11,7 @@ entries:
       url: /
     - output: web,pdf
       title: core
-      url: 00_core.ipynb
+      url: 00_core
     output: web
     title: badai
   - folderitems:
@@ -57,22 +57,22 @@ entries:
   - folderitems:
     - output: web,pdf
       title: core
-      url: 01_vision.ipynb
+      url: 01_vision
     output: web
     title: vision
   - folderitems:
     - output: web,pdf
       title: core
-      url: 01_video.ipynb
+      url: 01_video
     output: web
     title: video
   - folderitems:
     - output: web,pdf
       title: Overview
-      url: notes.ipynb
+      url: notes
     - output: web,pdf
       title: dl server
-      url: notes.dlserver.ipynb
+      url: notes.dlserver
     output: web
     title: notes
   output: web
