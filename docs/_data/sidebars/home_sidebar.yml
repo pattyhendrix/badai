@@ -5,9 +5,6 @@
 # Instead edit ../../sidebar.json
 entries:
 - folders:
-  - output: web,pdf
-    title: Overview
-    url: /
   - folderitems:
     - output: web,pdf
       title: Overview
