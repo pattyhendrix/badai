@@ -31,6 +31,9 @@ entries:
     output: web
     title: Lib
   - folderitems:
+    - output: web,pdf
+      title: utils
+      url: utils
       subfolders:
       - output: web
         subfolderitems:
