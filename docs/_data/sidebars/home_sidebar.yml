@@ -12,28 +12,28 @@ entries:
     - output: web,pdf
       title: core
       url: /00_core.ipynb
-    - output: web
-      subfolders:
-      - output: web,pdf
-        title: core
-        url: /01_vision.ipynb
-      title: vision
-    - output: web
-      subfolders:
-      - output: web,pdf
-        title: core
-        url: /01_video.ipynb
-      title: video
-    - output: web
-      subfolders:
-      - output: web,pdf
-        title: Overview
-        url: notes.ipynb
-      - output: web,pdf
-        title: dl server
-        url: notes.dlserver.ipynb
-      title: notes
     output: web
     title: badai
+  - folderitems:
+    - output: web,pdf
+      title: core
+      url: /01_vision.ipynb
+    output: web
+    title: vision
+  - folderitems:
+    - output: web,pdf
+      title: core
+      url: /01_video.ipynb
+    output: web
+    title: video
+  - folderitems:
+    - output: web,pdf
+      title: Overview
+      url: notes.ipynb
+    - output: web,pdf
+      title: dl server
+      url: notes.dlserver.ipynb
+    output: web
+    title: notes
   output: web
   title: Sidebar

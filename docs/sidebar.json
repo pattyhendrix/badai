@@ -1,16 +1,16 @@
 {
   "badai": {
     "Overview": "/",
-    "core": "/00_core.ipynb",
-    "vision": {
-      "core": "/01_vision.ipynb"
-    },
-    "video": {
-      "core": "/01_video.ipynb"
-    },
-    "notes": {
-      "Overview": "notes.ipynb",
-      "dl server": "notes.dlserver.ipynb"
-    }
+    "core": "/00_core.ipynb"
+  },
+  "vision": {
+    "core": "/01_vision.ipynb"
+  },
+  "video": {
+    "core": "/01_video.ipynb"
+  },
+  "notes": {
+    "Overview": "notes.ipynb",
+    "dl server": "notes.dlserver.ipynb"
   }
 }
