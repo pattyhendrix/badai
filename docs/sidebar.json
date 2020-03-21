@@ -20,6 +20,11 @@
       "course v4": {
         "lesson1": "00placeholder"
       }
+    },
+    "empty1": {
+      "video": {
+        "core": "video"
+      }
     }
   },
   "Notes": {
