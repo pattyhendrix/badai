@@ -10,21 +10,30 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: core functions
-      url: /core
-    - output: web,pdf
-      title: core functions for video
-      url: /video
-    - output: web,pdf
-      title: core functions for vision
-      url: /vision
-    - output: web,pdf
-      title: dl server
-      url: /notes.dlserver
-    - output: web,pdf
-      title: various notes
-      url: /notes
+      title: core
+      url: /00_core.ipynb
     output: web
     title: badai
+  - folderitems:
+    - output: web,pdf
+      title: core
+      url: /01_vision.ipynb
+    output: web
+    title: vision
+  - folderitems:
+    - output: web,pdf
+      title: core
+      url: /01_video.ipynb
+    output: web
+    title: video
+  - folderitems:
+    - output: web,pdf
+      title: Overview
+      url: notes.ipynb
+    - output: web,pdf
+      title: dl server
+      url: notes.dlserver.ipynb
+    output: web
+    title: notes
   output: web
   title: Sidebar
