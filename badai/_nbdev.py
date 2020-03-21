@@ -2,19 +2,19 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"print_obj": "00_core.ipynb",
-         "bytes_encode": "00_core.ipynb",
-         "bytes_decode": "00_core.ipynb",
-         "timer_start": "00_core.ipynb",
-         "timer_end": "00_core.ipynb",
-         "to_bytesio": "00_core.ipynb",
-         "cprint": "00_core.ipynb",
-         "select_frames": "01_video.ipynb",
-         "get_frames": "01_video.ipynb",
-         "get_vid": "01_video.ipynb",
-         "arr2im": "01_vision.ipynb",
-         "im2bytes": "01_vision.ipynb",
-         "check_im": "01_vision.ipynb"}
+index = {"print_obj": "utils.ipynb",
+         "bytes_encode": "utils.ipynb",
+         "bytes_decode": "utils.ipynb",
+         "timer_start": "utils.ipynb",
+         "timer_end": "utils.ipynb",
+         "to_bytesio": "utils.ipynb",
+         "cprint": "utils.ipynb",
+         "select_frames": "video.ipynb",
+         "get_frames": "video.ipynb",
+         "get_vid": "video.ipynb",
+         "arr2im": "vision.ipynb",
+         "im2bytes": "vision.ipynb",
+         "check_im": "vision.ipynb"}
 
 modules = ["core.py",
            "video/core.py",

@@ -3,7 +3,7 @@
     "Overview": "/"
   },
   "Lib": {
-    "Core": "core",
+    "Utils": "utils",
     "": {
       "Vision": {
         "Core": "vision"
@@ -12,6 +12,14 @@
     "empty1": {
       "Video": {
         "Core": "video"
+      }
+    }
+  },
+  "fastai": {
+    "": {
+      "course v4": {
+        "lesson1 notes": "00placeholder",
+        "lesson1 transcript": "00placeholder"
       }
     }
   },

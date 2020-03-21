@@ -13,8 +13,8 @@ entries:
     title: Getting Started
   - folderitems:
     - output: web,pdf
-      title: Core
-      url: core
+      title: Utils
+      url: utils
       subfolders:
       - output: web
         subfolderitems:
@@ -30,6 +30,19 @@ entries:
         title: Video
     output: web
     title: Lib
+  - folderitems:
+      subfolders:
+      - output: web
+        subfolderitems:
+        - output: web,pdf
+          title: lesson1 notes
+          url: 00placeholder
+        - output: web,pdf
+          title: lesson1 transcript
+          url: 00placeholder
+        title: course v4
+    output: web
+    title: fastai
   - folderitems:
     - output: web,pdf
       title: dl server
