@@ -20,7 +20,10 @@ entries:
       url: /vision
     - output: web,pdf
       title: dl server
-      url: /notes_01_server
+      url: /notes.dlserver
+    - output: web,pdf
+      title: Title
+      url: /notes
     output: web
     title: badai
   output: web
