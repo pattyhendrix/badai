@@ -11,13 +11,13 @@ entries:
       url: /
     - output: web,pdf
       title: core
-      url: 00_core.ipynb
+      url: /00_core.ipynb
     output: web
     title: badai
   - folderitems:
     - output: web,pdf
       title: core
-      url: 01_vision.ipynb
+      url: /nbs/01_vision.ipynb
     output: web
     title: vision
   - folderitems:

@@ -1,10 +1,10 @@
 {
   "badai": {
     "Overview": "/",
-    "core": "00_core.ipynb"
+    "core": "/00_core.ipynb"
   },
   "vision": {
-    "core": "01_vision.ipynb"
+    "core": "/nbs/01_vision.ipynb"
   },
   "video": {
     "core": "01_video.ipynb"
