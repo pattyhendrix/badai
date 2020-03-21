@@ -1,7 +1,7 @@
 {
+  "Overview": "/",
   "Getting Started": {
-    "Overview": "/",
-    "Core": "core"
+    "Overview": "/"
   },
   "Lib": {
     "Core": "core",

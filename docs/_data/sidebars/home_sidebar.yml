@@ -5,13 +5,13 @@
 # Instead edit ../../sidebar.json
 entries:
 - folders:
+  - output: web,pdf
+    title: Overview
+    url: /
   - folderitems:
     - output: web,pdf
       title: Overview
       url: /
-    - output: web,pdf
-      title: Core
-      url: core
     output: web
     title: Getting Started
   - folderitems:
