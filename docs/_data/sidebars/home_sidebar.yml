@@ -17,15 +17,22 @@ entries:
   - folderitems:
     - output: web,pdf
       title: Core
-      url: vision
+      url: core
+      subfolders:
+      - output: web
+        subfolderitems:
+        - output: web,pdf
+          title: Core
+          url: vision
+        title: Vision
+      - output: web
+        subfolderitems:
+        - output: web,pdf
+          title: Core
+          url: video
+        title: Video
     output: web
-    title: Vision
-  - folderitems:
-    - output: web,pdf
-      title: Core
-      url: video
-    output: web
-    title: Video
+    title: Lib
   - folderitems:
     - output: web,pdf
       title: dl server

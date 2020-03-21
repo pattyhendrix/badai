@@ -3,13 +3,20 @@
     "Overview": "/",
     "Core": "core"
   },
-  "Vision": {
-    "Core": "vision"
+  "Lib": {
+    "Core": "core",
+    "": {
+      "Vision": {
+        "Core": "vision"
+      }
+    },
+    "empty1": {
+      "Video": {
+        "Core": "video"
+      }
+    }
   },
-  "Video": {
-    "Core": "video"
-  },
-  "Notes":{
+  "Notes": {
     "dl server": "notes.dlserver"
   }
 }
