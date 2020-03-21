@@ -22,7 +22,7 @@ entries:
       title: dl server
       url: /notes.dlserver
     - output: web,pdf
-      title: Title
+      title: various notes
       url: /notes
     output: web
     title: badai
