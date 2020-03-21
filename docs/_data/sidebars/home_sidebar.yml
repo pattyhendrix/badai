@@ -31,22 +31,6 @@ entries:
     output: web
     title: Lib
   - folderitems:
-      subfolders:
-      - output: web
-        subfolderitems:
-        - output: web,pdf
-          title: lesson1
-          url: 00placeholder
-        title: course v4
-      - output: web
-        subfolderitems:
-        - output: web,pdf
-          title: core
-          url: video
-        title: video
-    output: web
-    title: fastai
-  - folderitems:
     - output: web,pdf
       title: dl server
       url: notes.dlserver
