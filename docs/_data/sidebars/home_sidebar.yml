@@ -31,16 +31,13 @@ entries:
     output: web
     title: Lib
   - folderitems:
-    - output: web,pdf
-      title: utils
-      url: utils
       subfolders:
       - output: web
         subfolderitems:
         - output: web,pdf
-          title: core
-          url: vision
-        title: vision
+          title: lesson1
+          url: 00placeholder
+        title: course v4
       - output: web
         subfolderitems:
         - output: web,pdf

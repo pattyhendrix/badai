@@ -16,10 +16,9 @@
     }
   },
   "fastai": {
-    "utils": "utils",
     "": {
-      "vision": {
-        "core": "vision"
+      "course v4": {
+        "lesson1": "00placeholder"
       }
     },
     "empty1": {
