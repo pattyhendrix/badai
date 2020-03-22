@@ -1,9 +1,5 @@
 # from https://gist.github.com/jph00/0762f8d49c807b608f6efd69d6862bee
 
-# ssh -i ~/.ssh/<your_private_key_pair> -L localhost:8888:localhost:8888 ubuntu@<your instance IP>
-# ssh -i ~/.ssh/aws -L localhost:8888:localhost:8888 ubuntu@54.203.31.91
-
-
 sudo add-apt-repository -y ppa:apt-fast/stable
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
 sudo apt-get update
@@ -37,6 +33,9 @@ sudo apt-fast install -y tigervnc-standalone-server firefox mesa-common-dev
 # git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 # pip3 install powerline-status
 
+
+# sudo apt-get purge nvidia*
+
 ubuntu-drivers devices
 # sudo apt-fast install -y nvidia-driver-430
 sudo apt-fast install -y nvidia-driver-440
@@ -47,8 +46,8 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6   40 --slave 
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7   40 --slave /usr/bin/g++ g++ /usr/bin/g++-7 --slave /usr/bin/gfortran gfortran /usr/bin/gfortran-7
 
 cd
-mkdir download
-cd download/
+mkdir downloads
+cd downloads/
 
 # wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
 wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
@@ -58,13 +57,14 @@ export PATH=~/anaconda3/bin:$PATH
 conda init
 source ~/.bashrc
 
-cd download
+cd downloads
 # wget http://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.243_418.87.00_linux.run
 wget http://developer.download.nvidia.com/compute/cuda/10.2/Prod/local_installers/cuda_10.2.89_440.33.01_linux.run
 chmod u+x cuda_1*_linux*
-#./cuda_1*_linux* --extract=`pwd`
-#sudo ./NVIDIA-*.run -q
+# ./cuda_1*_linux* --extract=`pwd`
+# sudo ./NVIDIA-*.run -q
 sudo ./cuda_*_linux.run --silent --toolkit --driver
+# sudo ./cuda_*_linux.run --silent --toolkit --driver --override-driver-check
 echo /usr/local/cuda/lib64 | sudo tee -a /etc/ld.so.conf
 sudo ldconfig
 echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/.bashrc
@@ -72,8 +72,10 @@ source ~/.bashrc
 
 cd ~/download
 # wget http://files.fast.ai/files/cudnn-10.1-linux-x64-v7.6.3.30.tgz
-cudnn-10.2-linux-x64-v7.6.5.32.tgz
-tar xf cudnn-10*.tgz
+# cudnn-10.2-linux-x64-v7.6.5.32.tgz
+# scp -i C:\Users\jpatn\.ssh\aws cudnn-10.2-linux-x64-v7.6.5.32.tgz ubuntu@54.191.228.168:~\downloads
+wget https://www.dropbox.com/s/lluge4e4htm4grd/cudnn-10.2-linux-x64-v7.6.5.32.tgz?dl=1
+tar xfv cudnn-10*.tgz
 sudo cp cuda/include/cudnn.h /usr/local/cuda/include
 sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
@@ -106,6 +108,11 @@ cd
 mkdir git
 cd git
 git clone https://github.com/fastai/fastai2
+git clone https://github.com/fastai/fastcore
+git clone https://github.com/fastai/nbdev
+git clone https://github.com/pattyhendrix/badai
+git clone https://github.com/fastai/course-v4
+
 cd fastai2
 conda env create -f environment.yml
 source activate fastai2
@@ -121,11 +128,7 @@ git clone https://github.com/fastai/nbdev
 cd nbdev
 pip install -e ".[dev]"
 
-pip install graphviz
-pip install azure
-pip install azure-cognitiveservices-vision-computervision
-pip install azure-cognitiveservices-search-websearch
-pip install azure-cognitiveservices-search-imagesearch
+pip install badai graphviz azure azure-cognitiveservices-vision-computervision azure-cognitiveservices-search-websearch azure-cognitiveservices-search-imagesearch
 
 # # This section is just if you want to run fastai & fastprogress from master
 # cd ~/git
