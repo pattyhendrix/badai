@@ -128,7 +128,7 @@ git clone https://github.com/fastai/nbdev
 cd nbdev
 pip install -e ".[dev]"
 
-pip install badai graphviz azure azure-cognitiveservices-vision-computervision azure-cognitiveservices-search-websearch azure-cognitiveservices-search-imagesearch
+pip install badai twine graphviz azure azure-cognitiveservices-vision-computervision azure-cognitiveservices-search-websearch azure-cognitiveservices-search-imagesearch
 
 # # This section is just if you want to run fastai & fastprogress from master
 # cd ~/git
