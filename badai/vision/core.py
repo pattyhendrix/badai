@@ -4,6 +4,7 @@ __all__ = ['arr2im', 'im2bytes', 'check_im']
 
 # Cell
 import PIL
+import io
 from ..utils import bytes_encode
 
 # Cell

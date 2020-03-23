@@ -107,11 +107,10 @@ sudo ldconfig
 cd
 mkdir git
 cd git
-git clone https://github.com/fastai/fastai2
-git clone https://github.com/fastai/fastcore
-git clone https://github.com/fastai/nbdev
-git clone https://github.com/pattyhendrix/badai
-git clone https://github.com/fastai/course-v4
+git clone https://github.com/fastai/fastai2 && git clone https://github.com/fastai/fastcore && git clone https://github.com/fastai/nbdev && git clone https://github.com/pattyhendrix/badai && git clone https://github.com/fastai/course-v4
+
+cd fastai2/ && pip install -e ".[dev]" && cd .. && cd fastcore/ && pip install -e ".[dev]" && cd .. && cd nbdev && pip install -e ".[dev]" && cd ..
+
 
 cd fastai2
 conda env create -f environment.yml
