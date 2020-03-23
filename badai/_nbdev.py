@@ -11,7 +11,8 @@ index = {"view": "utils.ipynb",
          "cprint": "utils.ipynb",
          "arr2im": "vision.ipynb",
          "im2bytes": "vision.ipynb",
-         "check_im": "vision.ipynb"}
+         "check_im": "vision.ipynb",
+         "open_im": "vision.ipynb"}
 
 modules = ["utils.py",
            "vision/core.py"]
