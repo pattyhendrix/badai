@@ -3,9 +3,9 @@
 __all__ = ['view', 'bytes_encode', 'bytes_decode', 'timer_start', 'timer_stop', 'to_bytesio', 'cprint']
 
 # Cell
+from fastai2.vision.all import *
 from ppretty import ppretty
 from colorama import Fore as C,Style
-from fastai2.vision.all import *
 import base64,time
 
 # Cell
@@ -28,12 +28,10 @@ def bytes_decode(encoded):
 # Cell
 def timer_start(label='timer'):
     "Start for timer. Place above start of code you want to time"
-    print(f'[START] {label.upper()}')
     return time.perf_counter()
 
 def timer_stop(start,label='timer'):
     "End for timer. Place below end of code you want to time. Prints execution time of surrounded code"
-    #print(f'[END {label.upper()}', f'{float(time.perf_counter()-start):.2f} secs'+']')
     print(f'[END] {label.upper()}', f'{float(time.perf_counter()-start):.2f} secs')
 
 # Cell
