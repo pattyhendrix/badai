@@ -1,3 +1,5 @@
+fastbook answers: https://forums.fast.ai/t/fastbook-chapter-1-questionnaire-solutions-wiki/65647
+
 import torch
 from fastai2 import __version__ as fa2_version
 

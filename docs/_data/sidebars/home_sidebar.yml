@@ -14,19 +14,19 @@ entries:
   - folderitems:
     - output: web,pdf
       title: utils
-      url: utils
+      url: badai.utils
       subfolders:
       - output: web
         subfolderitems:
         - output: web,pdf
           title: core
-          url: vision
+          url: badai.vision
         title: vision
       - output: web
         subfolderitems:
         - output: web,pdf
-          title: core
-          url: video
+          title: placeholder
+          url: site.placeholder
         title: video
     output: web
     title: Lib

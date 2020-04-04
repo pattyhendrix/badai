@@ -2,17 +2,16 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"view": "utils.ipynb",
-         "bytes_encode": "utils.ipynb",
-         "bytes_decode": "utils.ipynb",
-         "timer_start": "utils.ipynb",
-         "timer_stop": "utils.ipynb",
-         "to_bytesio": "utils.ipynb",
-         "cprint": "utils.ipynb",
-         "arr2im": "vision.ipynb",
-         "im2bytes": "vision.ipynb",
-         "check_im": "vision.ipynb",
-         "open_im": "vision.ipynb"}
+index = {"view": "badai.utils.ipynb",
+         "bytes_encode": "badai.utils.ipynb",
+         "bytes_decode": "badai.utils.ipynb",
+         "timer_start": "badai.utils.ipynb",
+         "timer_stop": "badai.utils.ipynb",
+         "to_bytesio": "badai.utils.ipynb",
+         "cprint": "badai.utils.ipynb",
+         "arr2im": "badai.vision.ipynb",
+         "check_im": "badai.vision.ipynb",
+         "open_im": "badai.vision.ipynb"}
 
 modules = ["utils.py",
            "vision/core.py"]

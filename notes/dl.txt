@@ -1,0 +1,12 @@
+repos:
+  https://github.com/kheyer/ML-DL-Projects
+  https://github.com/muellerzr/Practical-Deep-Learning-for-Coders-2.0
+  https://github.com/muellerzr/Practical-Deep-Learning-For-Coders
+
+  https://github.com/gabrielelanaro/ml-prototypes
+
+libs:
+  https://github.com/Novetta/adaptnlp
+
+books:
+  https://www.amazon.com/Hands-Deep-Learning-PyTorch-Facebooks/dp/1788834135

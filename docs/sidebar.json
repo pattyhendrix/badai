@@ -3,15 +3,15 @@
     "Overview": "/"
   },
   "Lib": {
-    "utils": "utils",
+    "utils": "badai.utils",
     "": {
       "vision": {
-        "core": "vision"
+        "core": "badai.vision"
       }
     },
     "empty1": {
       "video": {
-        "core": "video"
+        "placeholder": "site.placeholder"
       }
     }
   },
