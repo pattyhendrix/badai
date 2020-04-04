@@ -1,7 +1,0 @@
-fastbook answers: https://forums.fast.ai/t/fastbook-chapter-2-questionnaire-solutions-wiki/66392
-
-visualizing:
-  https://github.com/pytorch/captum
-  https://captum.ai/
-
-DataBlocks -> DataLoaders (val and train DataLoaders (batches everything to gpu) )
