@@ -1,6 +1,7 @@
 notes/
 fastai/
 deploys/
+t/
 
 *.bak
 .gitattributes
