@@ -15,8 +15,8 @@
       }
     }
   },
-  "Projects": {
-    "Test": "projects.deploy_test"
+  "Apps": {
+    "Test": "apps.deploy_test"
   },
   "Notes": {
     "Overview": "notes",

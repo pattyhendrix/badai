@@ -33,9 +33,9 @@ entries:
   - folderitems:
     - output: web,pdf
       title: Test
-      url: projects.deploy_test
+      url: apps.deploy_test
     output: web
-    title: Projects
+    title: Apps
   - folderitems:
     - output: web,pdf
       title: Overview
