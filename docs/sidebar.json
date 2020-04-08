@@ -15,6 +15,9 @@
       }
     }
   },
+  "Projects": {
+    "Test": "projects.deploy_test"
+  },
   "Notes": {
     "Overview": "notes",
     "dl server": "notes.dlserver",

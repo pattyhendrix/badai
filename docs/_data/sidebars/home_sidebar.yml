@@ -32,6 +32,12 @@ entries:
     title: Lib
   - folderitems:
     - output: web,pdf
+      title: Test
+      url: projects.deploy_test
+    output: web
+    title: Projects
+  - folderitems:
+    - output: web,pdf
       title: Overview
       url: notes
     - output: web,pdf
