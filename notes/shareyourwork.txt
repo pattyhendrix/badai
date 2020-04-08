@@ -1,0 +1,5 @@
+https://github.com/ayasyrev/dir_tree
+https://github.com/ai-fast-track/timeseries
+
+molly:
+  https://github.com/marii-moe/selfie2anime_super

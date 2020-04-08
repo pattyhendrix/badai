@@ -1,0 +1,10 @@
+ssh -i ~/.ssh/<your_private_key_pair> -L localhost:8888:localhost:8888 ubuntu@<your instance IP>
+ssh -i ~/.ssh/aws -L localhost:8888:localhost:8888 ubuntu@
+
+ssh -i C:\Users\jpatn\.ssh\aws -L localhost:8888:localhost:8888 ubuntu@
+
+aws s3 cp file.txt s3://my-bucket/
+
+instance : https://us-west-2.console.aws.amazon.com/ec2/v2/home?region=us-west-2#Instances:sort=instanceId
+s3       : https://console.aws.amazon.com/s3/buckets/sw-models-bucket/?region=us-east-1#
+functions: https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions

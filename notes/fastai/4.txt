@@ -1,0 +1,4 @@
+official: https://forums.fast.ai/t/lesson-4-official-topic/68039
+fastbook: https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb
+
+privacy: https://www.privacytools.io/

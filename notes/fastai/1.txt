@@ -1,0 +1,43 @@
+fastbook answers: https://forums.fast.ai/t/fastbook-chapter-1-questionnaire-solutions-wiki/65647
+
+import torch
+from fastai2 import __version__ as fa2_version
+
+device = 'cuda:1'
+torch.cuda.set_device(device)
+
+print(f'fastai version: {fa2_version}')
+print(f'Using cuda:{torch.cuda.current_device()} - {torch.cuda.get_device_name()}')
+
+# fastai version: 0.0.13
+# Using cuda:1 - GeForce GTX 1080 Ti
+
+fastai2 post:
+  https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/
+
+production:
+  https://developer.nvidia.com/tensorrt
+
+questionnaire:
+  https://forums.fast.ai/t/fastbook-chapter-1-questionnaire-solutions-wiki/65647
+
+jn widgets:
+  https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html#File-Upload
+
+top down approach: https://www.fast.ai/2016/10/08/teaching-philosophy/
+
+sylvain interview: https://forums.fast.ai/t/ama-interview-with-sylvain-gugger-chai-time-data-science-podcast/62103
+
+labelling:
+  https://appen.com/
+  https://scale.ai/
+  https://labelbox.com/
+  https://www.v7labs.com/
+  https://prodi.gy/
+  https://github.com/heartexlabs/label-studio
+  https://github.com/RTIInternational/SMART
+  https://www.snorkel.org/
+  https://www.makesense.ai/
+  https://github.com/opencv/cvat
+  https://github.com/wkentaro/labelme
+  https://github.com/wkentaro/labelme

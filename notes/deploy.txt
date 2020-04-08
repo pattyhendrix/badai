@@ -1,0 +1,50 @@
+serverless/lambda:
+  https://github.com/LauraBromley/penguin-inference-api/tree/master/aws-layer
+  https://github.com/alecrubin/pytorch-serverless
+
+  https://github.com/pvhee/fastai-hotdog
+  https://medium.com/hackernoon/building-a-serverless-not-hotdog-classifier-with-aws-sagemaker-and-lambda-dd473cf6506a
+
+  https://course.fast.ai/deployment_aws_lambda.html#grab-the-sam-example-project
+  https://read.iopipe.com/the-right-way-to-do-serverless-in-python-e99535574454
+  https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project
+  https://github.com/mpaepper/pytorch-serverless
+  https://github.com/ayoung012/awslambda-matplotlib-layer
+  https://medium.com/@angelatao0123/serving-pytorch-nlp-models-on-aws-lambda-f735190ec16c
+  https://github.com/brunosan/iris-ai/
+  https://machinelearnings.co/serving-pytorch-models-on-aws-lambda-with-caffe2-onnx-7b096806cfac
+  https://towardsdatascience.com/hosting-your-ml-model-on-aws-lambdas-api-gateway-part-1-9052e6b63b25
+  https://towardsdatascience.com/how-to-deploy-a-machine-learning-model-on-aws-lambda-24c36dcaed20
+  https://medium.com/analytics-vidhya/deploy-machine-learning-models-on-aws-lambda-5969b11616bf
+  https://blog.francium.tech/deploying-machine-learning-model-to-aws-lambda-with-serverless-a121a8253901
+  https://www.freecodecamp.org/news/what-we-learned-by-serving-machine-learning-models-using-aws-lambda-c70b303404a1/
+  https://medium.com/ixorthink/ml-model-deployment-using-aws-lambda-tips-and-tricks-ca41a7894dff
+  https://medium.com/merapar/pure-serverless-machine-learning-inference-with-aws-lambda-and-layers-979702d9ae49
+  https://github.com/benmcp/python-lambda-layers-example
+  https://blog.francium.tech/deploying-python-packages-to-lambda-layers-using-serverless-plugin-c8fe1371e0b
+  https://medium.com/better-programming/intro-to-lambda-layers-in-python-95e092198c97
+  https://medium.com/@angelatao0123/serving-pytorch-nlp-models-on-aws-lambda-f735190ec16c
+  https://medium.com/@mojodna/slimming-down-lambda-deployment-zips-b3f6083a1dff
+  https://medium.com/@dorian599/serverless-aws-lambda-layers-and-python-dependencies-92741138bf31
+
+  https://medium.com/harrythegreat/build-aws-layers-lambda-serverless-js-42cd6d17b155
+  https://stackoverflow.com/questions/31714788/can-an-aws-lambda-function-call-another#answer-31745774
+  https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Lambda.html
+
+  awesome layers    : https://github.com/mthenw/awesome-layers
+  serverless plugins: https://serverless.com/plugins/
+  full stack app    : https://serverless.com/learn/courses/full-stack-application-development-on-aws/
+
+  AWS Serverless Application Repository: https://serverlessrepo.aws.amazon.com/applications
+
+production:
+  https://forums.fast.ai/t/fastai-pytorch-in-production/16928
+  https://github.com/ahkarami/Deep-Learning-in-Production
+
+pytorch:
+  installs:
+    https://pytorch.org/get-started/locally/
+    https://pytorch.org/get-started/previous-versions/
+  wheels: https://download.pytorch.org/whl/torch_stable.html
+
+ffmpeg files: https://anaconda.org/conda-forge/ffmpeg/files

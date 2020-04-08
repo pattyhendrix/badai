@@ -1,0 +1,3 @@
+html playground:
+  https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic
+  <img src="data:image/png;base64,"/>
