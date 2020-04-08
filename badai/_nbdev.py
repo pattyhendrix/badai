@@ -9,6 +9,7 @@ index = {"view": "badai.utils.ipynb",
          "timer_stop": "badai.utils.ipynb",
          "to_bytesio": "badai.utils.ipynb",
          "cprint": "badai.utils.ipynb",
+         "untar": "badai.utils.ipynb",
          "arr2im": "badai.vision.ipynb",
          "check_im": "badai.vision.ipynb",
          "open_im": "badai.vision.ipynb"}
