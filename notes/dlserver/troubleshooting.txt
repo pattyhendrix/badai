@@ -1,0 +1,41 @@
+a2 motherboard error code:
+
+1. Check if there is no broken, scratch, missing parts, short out and burn parts.
+2. Remove new Hardware, Remove any USB disks/external devices
+3. Check if the PSU is in the right region: USA/Canada:120V.
+4. Change power supply
+5. Ensure that the memory and CPU model are compatible by checking the QVL on our support site. You can find this under the support tab of the motherboard’s page.  If it is memory not in our QVL,manual change memory timing and frequency in BIOS  and check it will POST.  Check memory module with MemTest86
+6. Some motherboards are outdated and may not be compatible with certain CPUs out of the box. Install the latest BIOS of the motherboard to resolve this. The BIOS can be updated by the following methods: EZ Flash II, USB BIOS Flashback, and ASUS Updater Tool.
+7. Reseat every component in the computer, including the 24 pin and 4/8 power cords. [8/4pin must be installed for system to boot]
+8. Replace the video connection cables.
+9. Check all fans are connected, especially CPU fans. If it is not connected, the CPU will overheat and motherboard will not POST
+10. Reset the CMOS of the computer. If clear CMOS do not work, remove battery, clear CMOS, and install battery and check for POST. Replace battery
+11. Update BIOS if there is BIOS flashback
+12. Check the LED lights on the motherboard. Usually, one will light up indicating that a component is not working, such as CPU, memory and memory slots, HDD etc. If the motherboard has a speaker, listen for beeps, or, if the unit has Q-code LED poster, check code error. Refer to motherboard manual for Q-code meanings, while the audible code meanings can be found below.
+13. Check to see if the processor has any bent CPU pins or bent pins on the CPU socket. Replace CPU
+14. Test with very minimum components:
+  1. ​Components: CPU, PSU with keyboard/mice
+    1. ​Test for POST
+      1. ​If turns on/POST with code 53/55, install memory and test again
+    2. ​If no POST
+      1. ​Replace CPU
+      2. Replace PSU
+      3. If still no POST with new CPU/PSU, Go to step 20 (RMA the motherboard)
+15. Advanced Users Only: Take the motherboard out of the computer case and put the unit on a computer test bench, reinstall only the essential components, such as one RAM chip, CPU, PSU, and if needed, a display card, and then turn on the computer.
+16. Disconnect all expansion cards if all steps above do not work
+17. Loose BIOS chip, please make sure BIOS chip is installed properly
+18. Replace the PSU, display card, and memory with working parts.
+
+BIOS Beep Description
+  One short beep: VGA detected, Quick boot set to disabled, no keyboard detected.
+  One continuous beep followed by two short beeps then a pause (repeated): No Memory detected.
+  One continuous beep followed by three short beeps: No VGA detected
+  One continuous beep followed by four short beeps: Hardware component failure.
+
+Advance troubleshooting techniques:
+  1. Remove hard drive, and VGA, and just with install only 1 stick of memory and CPU on the motherboard and see if the system is able to POST (turns ON and fans ON)
+    1. If the system POST okay, turn it off, and install the VGA and try again
+    2. If POST okay with VGA, please add the HDD to see if the system will not POST. If not POST, try using another SATA cable to the HDD. Back up all data and use another HDD and test again.
+  2. If the system still do not turn on with 1 memory stick and CPU, please swap the memory with another one, test with all memory sticks. If no POST, exchange memory with a new one
+  3. If it still do not POST, please exchange the CPU
+  4. If the new CPU doesn't work send the motherboard for servicing
