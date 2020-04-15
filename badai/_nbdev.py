@@ -19,6 +19,6 @@ modules = ["utils.py",
 
 doc_url = "https://pattyhendrix.github.io/badai/"
 
-git_url = "https://github.com/pattyhendrix/badai/tree/master/"
+git_url = "https://github.com/pattyhendrix/badai/"
 
 def custom_doc_links(name): return None
