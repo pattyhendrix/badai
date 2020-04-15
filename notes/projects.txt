@@ -1,0 +1,3 @@
+style transfer:
+  https://towardsdatascience.com/breaking-down-leon-gatys-neural-style-transfer-in-pytorch-faf9f0eb79db
+  https://github.com/pytorch/examples/tree/master/fast_neural_style

@@ -1,7 +1,7 @@
 # from https://gist.github.com/jph00/0762f8d49c807b608f6efd69d6862bee
 
 hostnamectl set-hostname sw
-nano /etc/hosts/:
+nano /etc/hosts:
   ip hostname
 adduser hendrix
 adduser hendrix sudo
@@ -10,7 +10,7 @@ ssh with user
 scp id_rsa.pub sw:~/.ssh/authorized_keys
 sudo chmod 700 ~/.ssh/
 sudo chmod 600 ~/.ssh/*
-sudo nano /etc/ssh/sshd_config:
+sudo nano /etc/ssh/sshd_config
   # PermitRootLogin no  ?
   PasswordAuthentication no
 sudo systemctl restart sshd
@@ -74,7 +74,6 @@ sudo apt-fast install -y tigervnc-standalone-server firefox mesa-common-dev
 
 
 # sudo apt-get purge nvidia*
-
 ubuntu-drivers devices
 # sudo apt-fast install -y nvidia-driver-430
 sudo apt-fast install -y nvidia-driver-440
@@ -101,13 +100,17 @@ cd downloads
 # wget http://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.243_418.87.00_linux.run
 wget http://developer.download.nvidia.com/compute/cuda/10.2/Prod/local_installers/cuda_10.2.89_440.33.01_linux.run
 chmod u+x cuda_1*_linux*
-# ./cuda_1*_linux* --extract=`pwd`
-# sudo ./NVIDIA-*.run -q
-sudo ./cuda_*_linux.run --silent --toolkit --driver
-# sudo ./cuda_*_linux.run --silent --toolkit --driver --override-driver-check
+## ./cuda_1*_linux* --extract=`pwd`
+## sudo ./NVIDIA-*.run -q
+dont install driver?
+sudo ./cuda_*_linux.run --silent --toolkit
+# sudo ./cuda_*_linux.run --silent --toolkit --driver
+## sudo ./cuda_*_linux.run --silent --toolkit --driver --override-driver-check
 echo /usr/local/cuda/lib64 | sudo tee -a /etc/ld.so.conf
+echo /usr/local/cuda-10.2/lib64 | sudo tee -a /etc/ld.so.conf
 sudo ldconfig
 echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/.bashrc
+echo 'export PATH=/usr/local/cuda-10.2/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 
 cd ~/download
@@ -167,7 +170,8 @@ git clone https://github.com/fastai/nbdev
 cd nbdev
 pip install -e ".[dev]"
 
-pip install badai twine graphviz azure azure-cognitiveservices-vision-computervision azure-cognitiveservices-search-websearch azure-cognitiveservices-search-imagesearch
+pip install badai twine graphviz azure-cognitiveservices-vision-computervision azure-cognitiveservices-search-websearch azure-cognitiveservices-search-imagesearch
+# pip install badai twine graphviz azure azure-cognitiveservices-vision-computervision azure-cognitiveservices-search-websearch azure-cognitiveservices-search-imagesearch
 
 # # This section is just if you want to run fastai & fastprogress from master
 # cd ~/git
@@ -180,7 +184,7 @@ pip install badai twine graphviz azure azure-cognitiveservices-vision-computervi
 jupyter notebook --generate-config
 cat << 'EOF' >> ~/.jupyter/jupyter_notebook_config.py
 c.NotebookApp.open_browser = False
-#c.NotebookApp.token = ''
+c.NotebookApp.token = ''
 EOF
 pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user

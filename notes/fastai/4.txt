@@ -1,4 +1,10 @@
-official: https://forums.fast.ai/t/lesson-4-official-topic/68039
-fastbook: https://github.com/fastai/fastbook/blob/master/03_ethics.ipynb
+regex:
+  https://regexr.com/
+  https://github.com/fastai/course-nlp/blob/master/4-regex.ipynb
+  https://regex101.com/
+  https://alf.nu/RegexGolf
 
-privacy: https://www.privacytools.io/
+links:
+  https://forums.fast.ai/t/speed-up-batch-size-discovery-hundreds-of-times-to-fit-into-your-gpu-ram/38900
+  https://openai.com/blog/microscope/
+  https://microscope.openai.com/models/resnetv2_50_slim

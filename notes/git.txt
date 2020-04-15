@@ -1,0 +1,2 @@
+use ssh instead of https:
+  git remote set-url origin git@github.com:username/repo.git

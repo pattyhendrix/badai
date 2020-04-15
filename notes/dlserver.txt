@@ -42,3 +42,5 @@ software:
   ffmpeg: https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg
 
 pytorch wheels: https://download.pytorch.org/whl/torch_stable.html
+
+ubuntu server and drive mounting: https://www.youtube.com/watch?v=_lOwOc_UPIs
