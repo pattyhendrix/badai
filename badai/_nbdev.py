@@ -17,7 +17,7 @@ index = {"view": "badai.utils.ipynb",
 modules = ["utils.py",
            "vision/core.py"]
 
-doc_url = "https://pattyhendrix.github.io/badai/"
+doc_url = "https://badai.pattyhendrix.com/"
 
 git_url = "https://github.com/pattyhendrix/badai/"
 
